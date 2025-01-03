@@ -8,6 +8,8 @@ const images = [
 
 let currentIndex = 0;
 
+$(".mainPic").hide();
+
 
 $(".slider").click(function (e) {
     const src = $(this).attr("src");
